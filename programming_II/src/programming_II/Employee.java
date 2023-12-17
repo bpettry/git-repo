@@ -17,29 +17,32 @@ public class Employee {
 		salary = 0.0;
 	}
 	
-	//method to set and get first name
-	public void setFirstName(String fName) {
-		firstName = fName;
-	}
+	//method to get and set first name
 	public String getFirstName() {
 		return firstName;
 	}
-	
-	//method to set and get last name
-	public void setLastName(String lName) {
-		lastName = lName;
+	public void setFirstName(String fName) {
+		firstName = fName;
 	}
+	
+
+	//method to get and set last name
 	public String getLastName() {
 		return lastName;
 	}
-	
-	//method to set and get employee ID
-	public void setEmployeeID(int empID) {
-		employeeID = empID;
+	public void setLastName(String lName) {
+		lastName = lName;
 	}
+	
+	
+	//method to get and set employee ID
 	public int getEmployeeID() {
 		return employeeID;
 	}
+	public void setEmployeeID(int empID) {
+		employeeID = empID;
+	}
+	
 	
 	/*
 	 * method to print employee information as 
@@ -48,7 +51,7 @@ public class Employee {
 	 * Employee ID:  
 	 * Salary: 
 	 */
-	public void printEmployee() {
+	public void printAll() {
 		System.out.println("First name: " + firstName);
 		System.out.println("Last name: " + lastName);
 		System.out.println("Employee ID: " + employeeID);
