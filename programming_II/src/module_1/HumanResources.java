@@ -1,8 +1,8 @@
-package programming_II;
+package module_1;
 
 public class HumanResources {
 	public static void main(String[] args) {
-		//innitialize an employee and a manager
+		//initialize an employee and a manager
 		Employee employee00089 = new Employee();
 		Manager manager11145 = new Manager();
 			

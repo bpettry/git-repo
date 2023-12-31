@@ -1,4 +1,4 @@
-package programming_II;
+package module_1;
 
 public class Manager extends Employee{
 	//fields for Manager subclass
