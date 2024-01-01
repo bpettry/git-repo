@@ -37,7 +37,7 @@ public class GUIApplication extends JFrame implements ActionListener {
 		GridBagConstraints localeConst = null;
 		
 		//frame title
-		setTitle("Age Claculator");
+		setTitle("Age Calculator");
 		
 		//set the date and age labels
 		dateLabel = new JLabel("Birthdate:");
@@ -52,7 +52,7 @@ public class GUIApplication extends JFrame implements ActionListener {
 		ageField.setEditable(false);
 		
 		//create the calculate age button
-		//connect button yo action event
+		//connect button to action event
 		calcButton = new JButton("Calculate Age");
 		calcButton.addActionListener(this);
 		
